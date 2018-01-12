@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+ 	<!--FAVICON-->
+ 	<title>Fetch My Way</title>
+ 	<base href="/fetchmyway/" target="_blank">
+ 	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<meta name="theme-color" content="#ffffff">
+	<link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32">
+	<link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/latest/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./style/react-bootstrap-table-all.min.css">
+    <link rel="stylesheet" href="./style/geosuggest.css">
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/select.css">
+    <link rel="stylesheet" href="./style/react-datetime.css">
+    <script type="text/javascript"
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAkC4nX5_-LB-BTJ27mTElDq0bJhrNzMww&libraries=geometry,places,visualization">
+    </script>
+        <!-- Start Single Page Apps for GitHub Pages -->
+    <script type="text/javascript">
+      // Single Page Apps for GitHub Pages
+      (function(l) {
+        if (l.search) {
+          var q = {};
+          l.search.slice(1).split('&').forEach(function(v) {
+            var a = v.split('=');
+            q[a[0]] = a.slice(1).join('=').replace(/~and~/g, '&');
+          });
+          if (q.p !== undefined) {
+            window.history.replaceState(null, null,
+              l.pathname.slice(0, -1) + (q.p || '') +
+              (q.q ? ('?' + q.q) : '') +
+              l.hash
+            );
+          }
+        }
+      }(window.location))
+    </script>
+<!-- End Single Page Apps for GitHub Pages -->
+  </head>
+  <body>
+    <div class="container-fluid" style="height: 100%"></div>
+  </body>
+  <script src="./bundle.js"></script>
+</html>
